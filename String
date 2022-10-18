@@ -1,0 +1,13 @@
+import java.util.Scanner; //biblioteca do Scanner, para ler valores de entrada
+public class Main {
+    public static void main(Strin[] args){
+        Scanner scan= new Scanner(System.in); //criando objeto scan, para ler os dados postos por usúarios, por meio da classe Scanner
+        int tam=2;
+        String vectorName=new String[tam]; //prepara o vectorName para receber um vetor de tamanho 2;
+        //agora vamos preparar o vetor para receber valores
+        for(int i=0;i<=tam;i++){
+            vectorName[i]=scan.nextLine;
+        }
+        System.out.printf("posição zero: %s e posição um: %s",vectorName[0],vectorName[1])
+    }
+}
